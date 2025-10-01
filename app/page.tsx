@@ -158,7 +158,7 @@ export default function Home() {
           {loading ? "⚡ Generating..." : "🚀 Generate Article"}
         </button>
 
-        {/* Article display */}
+        {/* Article dis play */}
         <div
           ref={articleRef}
           className="p-4 rounded-2xl border border-white/30 bg-black/30 h-64 max-h-[60vh] overflow-y-auto whitespace-pre-wrap relative"
